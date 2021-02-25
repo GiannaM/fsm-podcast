@@ -8,8 +8,7 @@ body{
     
     font-family: 'Chivo', sans-serif;
     background: #121725;
-    
-    
+
 
 }
 /*---------------------------Section #intro -----------------------------*/
@@ -19,8 +18,9 @@ body{
     display: flex; 
     flex-direction: row; 
     justify-content: flex-start;
-    max-width: 1000px;
-    max-height: 1000px;
+    /* mportant  remember this max-width and max-height to resize ; */
+    max-width: 1200px;
+    max-height: 2000px;
 }
 
 .introContainer{
@@ -62,7 +62,6 @@ h1 {
     font-size: 52px;
     line-height: 62px;
     z-index: 20;
-    /* or 119% */
     text-transform: uppercase;
 
     color: #54E6AF;
