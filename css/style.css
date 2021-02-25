@@ -9,6 +9,7 @@ body{
     font-family: 'Chivo', sans-serif;
     background: #121725;
     
+    
 
 }
 /*---------------------------Section #intro -----------------------------*/
@@ -18,7 +19,8 @@ body{
     display: flex; 
     flex-direction: row; 
     justify-content: flex-start;
-    
+    max-width: 1000px;
+    max-height: 1000px;
 }
 
 .introContainer{
@@ -82,9 +84,7 @@ p{
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
-
-    color: #C2CBE5;
+     color: #C2CBE5;
     margin-top: 148px;
 
 
@@ -94,14 +94,12 @@ form {
     /* Group 2 */
 
     position: absolute;
-    /* width: 427px;
-    height: 56px; */
     top: 264px;
-    /* background: #2C344B; */
     border: hidden;
     display: flex;
     justify-content:space-between;
     display: flex;
+ 
 
 }
 /* --email input--- */
@@ -125,10 +123,10 @@ form {
 #requestAccess {
     display: flex;
     position: absolute;
-    left: 60.89%;
-    right: 1.17%;
-    top: 8.93%;
-    bottom: 8.93%;
+    /* left: 60.89%; */
+    /* right: 1.17%; */
+    /* top: 8.93%; */
+    /* bottom: 8.93%; */
     height: 46px;
     width: 162px;
     left: 260px;
@@ -155,11 +153,11 @@ form {
    position: absolute;
    align-items: flex-end;
    width: 550px;
-
    height: 421px;
    left: 0px;
    bottom: 10px;
    margin-right: 187px;
+   z-index: -1;
  
 }
 
@@ -203,4 +201,5 @@ form {
     top: 718px;
 }
 
+@media screen and (min-width: px) {}
 
