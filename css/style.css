@@ -89,7 +89,7 @@ p{
 
 }
 /* -Log In Form for email address--- */
-form {
+#signUp {
     /* Group 2 */
 
     position: absolute;
@@ -98,6 +98,7 @@ form {
     display: flex;
     justify-content:space-between;
     display: flex;
+ 
  
 
 }
@@ -110,6 +111,7 @@ form {
     border: hidden;
     font-size: 14px;
     font-style: normal;
+    color: #FFFFFF;
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0px;
@@ -132,7 +134,10 @@ form {
     top: 5px;
     box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
     border-radius: 28px;
-    background: #54E6AF;
+    background-color: #54E6AF;
+    z-index: 25;
+    border: none;
+    cursor: pointer;
    
 }
 #requestAccess > span {
@@ -146,6 +151,20 @@ form {
     padding: 9px 27px 27px 9px;
    
 }
+#error {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+   
+    color: #fb3e3e;
+    z-index: 24;
+    position: absolute;
+    top: 320px;
+    margin-left: 32px;
+
+}
+
 .icons {
    display: flex;
    justify-content: space-between;
